@@ -58,7 +58,7 @@ def get_bonus_tax(x: int) -> float:
         raise ValueError('x must bigger than 0')
 
 
-def optimize(money_sum: int, precision: int, deduct_amount: int = 0) -> Tuple[Dict[str, int], int]:
+def optimize(money_sum: int, precision: int = 1000, deduct_amount: int = 0) -> Tuple[Dict[str, int], int]:
     min_tax = None
     combination = (0, 0)
     for bonus in range(0, money_sum + 1, precision):
