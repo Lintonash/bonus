@@ -4,7 +4,7 @@ import sys
 from tax_calc import optimize
 
 
-def get_precision(values: dict):
+def get_precision(values: dict) -> int:
     if values[1]:
         return 1
     elif values[2]:

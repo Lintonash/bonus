@@ -1,5 +1,4 @@
 from typing import Dict, Tuple
-# from numpy import isclose
 
 DEDUCT_RATE = 0.8084
 DEDUCT_INTERCEPT = -60926
