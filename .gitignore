@@ -1,0 +1,22 @@
+.DS_Store
+.env
+.venv
+.idea
+*.pyc
+.vscode/
+*/__pycache__/*
+# change hazard_tables to something more clear that could be deleted
+.mypy_cache/
+hazard_tables/exposure_data/*
+output/*
+/cat_config.json
+event_catalog/monte_carlo_simulation.json
+event_catalog/provider_event_catalog.csv
+event_catalog/tech_event_catalog.csv
+event_catalog/ll_tech_event_catalog.csv
+event_catalog/ll_monte_carlo_simulation.json
+input/detailed/*/*/*.json
+input/detailed/*/*/raw/*
+company_sampler/sampling_output*
+local_parser_config.json
+calibration/results/*
